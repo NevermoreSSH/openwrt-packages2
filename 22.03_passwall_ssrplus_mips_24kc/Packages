@@ -1,0 +1,299 @@
+Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+Source: feeds/packages/net/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653916366
+Maintainer: pexcn <i@pexcn.me>
+Architecture: mips_24kc
+Installed-Size: 17314
+Filename: chinadns-ng_1.0-beta.25-1_mips_24kc.ipk
+Size: 18110
+SHA256sum: 6bed2072f0d89f2976cac7b773cddd3621e2443c9dd2c0b756e5a094bb533122
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: feeds/packages/net/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1653916366
+Maintainer: ghostmaker
+Architecture: mips_24kc
+Installed-Size: 10763
+Filename: dns2socks_2.1-2_mips_24kc.ipk
+Size: 11545
+SHA256sum: 7658db2e4ed83b940cea9bfbc939496287ba632c6b9edd45356e2a3fbe2df66f
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: feeds/packages/net/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653916366
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mips_24kc
+Installed-Size: 12498
+Filename: dns2tcp_1.1.0-1_mips_24kc.ipk
+Size: 13289
+SHA256sum: 93899ed7494058979c91491140182408905ea5d5ae9e71d94bf60b0f4e69d6e7
+Description:  utility to convert dns query from udp to tcp
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+Source: feeds/packages/net/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675155577
+Architecture: mips_24kc
+Installed-Size: 28205
+Filename: ipt2socks_1.1.3-3_mips_24kc.ipk
+Size: 28976
+SHA256sum: 383c0dbac2a7abcd350ff8af1e6393259b03ba25251bfa5bc95d0e9e5d6e7576
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: luci-app-passwall
+Version: 4.55-1
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dns2socks, dns2tcp, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, unzip, chinadns-ng, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, trojan-plus
+Source: feeds/luci/applications/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1657708932
+Architecture: all
+Installed-Size: 959339
+Filename: luci-app-passwall_4.55-1_all.ipk
+Size: 960076
+SHA256sum: 671b761cdd174302fb4b9f809924d3dbbe3f238d8ab62ef69f201905b03ddb41
+Description:  LuCI support for PassWall
+
+Package: luci-app-ssr-plus
+Version: 186-3
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, ip-full, iptables-mod-tproxy, lua, libuci-lua, luci-lib-ipkg, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs
+Source: feeds/luci/applications/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1657203013
+Architecture: all
+Installed-Size: 195944
+Filename: luci-app-ssr-plus_186-3_all.ipk
+Size: 196106
+SHA256sum: cab7344c896cbe7cd66b567bb8b92e5049a6a6fe36bbb9267d85e313618ccffe
+Description:  SS/SSR/V2Ray/XRay/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+Source: feeds/packages/net/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1653916366
+Maintainer: lean
+Architecture: mips_24kc
+Installed-Size: 4761
+Filename: microsocks_1.0.3-1_mips_24kc.ipk
+Size: 5547
+SHA256sum: a07f0066aee7d2f03ff6d5e1c37492139705aebb7bdebb31fa28f1abfaaaad1d
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-2
+Depends: libc, libpthread
+Source: feeds/packages/net/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1636633027
+Architecture: mips_24kc
+Installed-Size: 75195
+Filename: pdnsd-alt_1.2.9b-par-2_mips_24kc.ipk
+Size: 76106
+SHA256sum: e1ea94a54eeaeb237b86d4e6fe607a827c801e2de2589635fd1424b25f208d0d
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653916366
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 45747
+Filename: shadowsocks-libev-ss-local_3.3.5-1_mips_24kc.ipk
+Size: 46138
+SHA256sum: 9e2f8a0fda1e4f2cf8efdd1261d58b99eb0bb59cee837e9f0d15ad3a14386d59
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653916366
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 41463
+Filename: shadowsocks-libev-ss-redir_3.3.5-1_mips_24kc.ipk
+Size: 41669
+SHA256sum: c5710982692a37105fec0c3f4489aa551225eaa1e1dce40e77e231060033d68d
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/packages/net/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1654535514
+Architecture: mips_24kc
+Installed-Size: 2407
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_mips_24kc.ipk
+Size: 3146
+SHA256sum: 400a06bef01b92601174da35b7e4cd8d5ba9715658eb685abb20638710e38a14
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/packages/net/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1654535514
+Architecture: mips_24kc
+Installed-Size: 57054
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_mips_24kc.ipk
+Size: 57445
+SHA256sum: ff136ff8c9014ca21afc4e8ec2b160f3bdfa5e6f671059e1329eae9c7ac73a6a
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/packages/net/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1654535514
+Architecture: mips_24kc
+Installed-Size: 50689
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_mips_24kc.ipk
+Size: 51106
+SHA256sum: c243ec1a55e0342312d83ccd3153c7b8dae935e6b9acb37946b5df75a5558ae2
+Description:  shadowsocksr-libev ssr-redir
+
+Package: simple-obfs-client
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Source: feeds/packages/net/simple-obfs
+SourceName: simple-obfs-client
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653916366
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: mips_24kc
+Installed-Size: 24018
+Filename: simple-obfs-client_0.0.5-1_mips_24kc.ipk
+Size: 24749
+SHA256sum: 794e2d1e68c51002d1a1b4c6c10dabaa0ded279de5dcdf0ab5de1b3395528720
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: feeds/packages/net/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1653916366
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: mips_24kc
+Installed-Size: 25837
+Filename: simple-obfs-server_0.0.5-1_mips_24kc.ipk
+Size: 26554
+SHA256sum: 21bd10c8f723eeaec9f6a999f69627c45344fa61de939ee3a5b61ba294502ad9
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/packages/net/tcping
+SourceName: tcping
+License: GPL-2.0-only
+Section: net
+SourceDateEpoch: 1653916366
+Architecture: mips_24kc
+Installed-Size: 3403
+Filename: tcping_0.3-1_mips_24kc.ipk
+Size: 4114
+SHA256sum: 2c490aa8a83180bcdb90524abfd2c5be9f8044325d4a58e226e196f1e72e4608
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: feeds/packages/net/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1653916366
+Maintainer: Trojan-Plus-Group
+Architecture: mips_24kc
+Installed-Size: 367258
+Filename: trojan-plus_10.0.3-2_mips_24kc.ipk
+Size: 368039
+SHA256sum: a4707ba5ed49c4e0fbd88a902874d89d224a534481f542caaf4f56ae190aff57
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: xray-core
+Version: 1.5.4-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1647876847
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mips_24kc
+Installed-Size: 6027961
+Filename: xray-core_1.5.4-1_mips_24kc.ipk
+Size: 6017557
+SHA256sum: f0bd7bc5d9c7a3c7872679a1985075cdcd948c9b4ba9fcdb40db9d45ead1bbec
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
