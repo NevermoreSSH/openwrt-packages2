@@ -6,3 +6,5 @@ GL.iNet GL-MT300N V2
 - OpenVPN Wireguard
 - Adblock Watchcat
 - Drive USB Modem & USB Tethering
+- IP: 192.168.1.1
+- Wifi : OpenWrt
