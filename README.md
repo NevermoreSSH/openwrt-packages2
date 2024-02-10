@@ -14,7 +14,7 @@ GL.iNet GL-MT300N V2 (beta)
 - Wifi : OpenWrt
 
 
-Upcoming fw other router ( delayed because the openwrt firmware has a problem)
+Upcoming fw other router (delayed because the openwrt firmware has a problem with latest passwall)
 - Xiaomi Mi4a gigabyte
 - Totolink x5000r
 - Xiaomi Mi WiFi R3G
