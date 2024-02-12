@@ -1,0 +1,391 @@
+Package: brook
+Version: 20230606-1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/brook
+SourceName: brook
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 6982501
+Filename: brook_20230606-1_mipsel_24kc.ipk
+Size: 6893766
+SHA256sum: 912ab0514e2c4bd4ce63fbf4fc1139d30e0260e721b48c7c267e821e1b078721
+Description:  Brook is a cross-platform strong encryption and not detectable proxy.
+ Zero-Configuration.
+
+Package: chinadns-ng
+Version: 2023.06.01-1
+Depends: libc, ipset
+Source: feeds/passwall_packages/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: pexcn <i@pexcn.me>
+Architecture: mipsel_24kc
+Installed-Size: 26695
+Filename: chinadns-ng_2023.06.01-1_mipsel_24kc.ipk
+Size: 27442
+SHA256sum: 6d581b8039e526276b2c13babe53269797795198e4ddc6adf7527b9cf19961bf
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: feeds/passwall_packages/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: ghostmaker
+Architecture: mipsel_24kc
+Installed-Size: 10851
+Filename: dns2socks_2.1-2_mipsel_24kc.ipk
+Size: 11641
+SHA256sum: aa9c3ebf9c439d5836db2ba928cd5d9cd03aa0f26eee1985abb2323ec1487605
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: feeds/passwall_packages/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 12510
+Filename: dns2tcp_1.1.0-1_mipsel_24kc.ipk
+Size: 13294
+SHA256sum: 95b35667d64e24d6ffe3db4194fa486c06e22135c0519903ed4b3c32804f27e2
+Description:  utility to convert dns query from udp to tcp
+
+Package: hysteria
+Version: 1.3.4-1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 6042378
+Filename: hysteria_1.3.4-1_mipsel_24kc.ipk
+Size: 6029510
+SHA256sum: 9e802200e47f10c369b435973e1075d868ec5c26cc90a6a7679472e9c245964b
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+Source: feeds/packages/net/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675155577
+Architecture: mipsel_24kc
+Installed-Size: 28316
+Filename: ipt2socks_1.1.3-3_mipsel_24kc.ipk
+Size: 29093
+SHA256sum: 1c0d0408759fcc33e76a4c37facc62d20d8cd58cec1bff1d15b57ba10bfacb7b
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: luci-app-passwall
+Version: 4.66-8
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dns2tcp, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, unzip
+Source: feeds/passwall/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1686477025
+Architecture: all
+Installed-Size: 967870
+Filename: luci-app-passwall_4.66-8_all.ipk
+Size: 967825
+SHA256sum: 7aa406294c7a7377c16d48d49fcba1e88c89e0b8dc18f8cf2a0699e068c5a5d8
+Description:  LuCI support for PassWall
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+Source: feeds/passwall_packages/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: lean
+Architecture: mipsel_24kc
+Installed-Size: 4813
+Filename: microsocks_1.0.3-1_mipsel_24kc.ipk
+Size: 5598
+SHA256sum: b74cbfd26b27836f4af42a9c4be1d3b3f0121df21e3dbfca6b72c4252648244a
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: naiveproxy
+Version: 113.0.5672.62-1-1
+Depends: libc, libatomic1
+Source: feeds/passwall_packages/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 3024213
+Filename: naiveproxy_113.0.5672.62-1-1_mipsel_24kc.ipk
+Size: 3016191
+SHA256sum: f4ad1798e362f5d29e54d53664bddd462a7dfb9200f86ca1b8d45644b923611f
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.15.3-1
+Depends: libc
+Source: feeds/passwall_packages/shadowsocks-rust
+SourceName: shadowsocks-rust-sslocal
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 1954607
+Filename: shadowsocks-rust-sslocal_1.15.3-1_mipsel_24kc.ipk
+Size: 1955743
+SHA256sum: 1d1749c504157f1df4307e3239b2b2b8812d9993481e4281a3d6460530729912
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssserver
+Version: 1.15.3-1
+Depends: libc
+Source: feeds/passwall_packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssserver
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 1396140
+Filename: shadowsocks-rust-ssserver_1.15.3-1_mipsel_24kc.ipk
+Size: 1397203
+SHA256sum: e17cd38baa56f369680d82e94e701c2dce519b40e14ac2560b8fe68141cc275f
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Architecture: mipsel_24kc
+Installed-Size: 57607
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_mipsel_24kc.ipk
+Size: 58296
+SHA256sum: 4f480447a3706df9e69aa151858f95a6d782b0b6711ac88079dc820201371591
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Architecture: mipsel_24kc
+Installed-Size: 51962
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_mipsel_24kc.ipk
+Size: 52373
+SHA256sum: c55237885b58b654630e590322fcdb7b2acd5defb3480736f7ee4445c13fbfad
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/passwall_packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Architecture: mipsel_24kc
+Installed-Size: 60529
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_mipsel_24kc.ipk
+Size: 60819
+SHA256sum: a85d81b541e261469d42f7ae666df9e389d3103b9158a34abc8a9b6bf5192ff0
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: feeds/passwall_packages/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: mipsel_24kc
+Installed-Size: 27985
+Filename: simple-obfs_0.0.5-1_mipsel_24kc.ipk
+Size: 28752
+SHA256sum: 9e4cc3561e6c37534bb37e608548035889e3c17f7ddc1d720bd0f250d744080a
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/passwall_packages/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1686317523
+Architecture: mipsel_24kc
+Installed-Size: 3897
+Filename: tcping_0.3-1_mipsel_24kc.ipk
+Size: 4596
+SHA256sum: 7b956584e639b0db656f81511a8172a37274106b6a8aebe958da1d6996d5e437
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-go
+Version: 0.10.6-1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/trojan-go
+SourceName: trojan-go
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 4703874
+Filename: trojan-go_0.10.6-1_mipsel_24kc.ipk
+Size: 4694684
+SHA256sum: 967918406a1088b31d1ccab19dfee495771011de0a9791bbe40e49a7a5324a11
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: feeds/passwall_packages/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: Trojan-Plus-Group
+Architecture: mipsel_24kc
+Installed-Size: 398504
+Filename: trojan-plus_10.0.3-2_mipsel_24kc.ipk
+Size: 399298
+SHA256sum: b2c7c5f3821aca31992b3aeb7d6a72a96dfff7d5feb9520c9876157c326bb985
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: v2ray-core
+Version: 5.7.0-1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/v2ray-core
+SourceName: v2ray-core
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 8186887
+Filename: v2ray-core_5.7.0-1_mipsel_24kc.ipk
+Size: 8166979
+SHA256sum: 1e11cf9007187f91cc944d65dfd927761b6f7e3edcc06e5ff09ac76e0a165c9b
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-geoip
+Version: 202302090046-1
+Depends: libc
+Source: feeds/passwall_packages/v2ray-geodata
+SourceName: v2ray-geoip
+License: CC-BY-SA-4.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 2312668
+Filename: v2ray-geoip_202302090046-1_all.ipk
+Size: 2056665
+SHA256sum: a573fcabd877a50110ba58a331d3b658902afb88c076ecdb19bb7d7f8ba45aab
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 20230208103804-1
+Depends: libc
+Source: feeds/passwall_packages/v2ray-geodata
+SourceName: v2ray-geosite
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 437806
+Filename: v2ray-geosite_20230208103804-1_all.ipk
+Size: 437349
+SHA256sum: e842802217cabfe41daa09467698304ebbd23c8f1f416145248eb138d430074e
+Description:  Geosite List for V2Ray
+
+Package: v2ray-plugin
+Version: 5.7.0-1
+Depends: libc, ca-bundle
+Source: feeds/passwall_packages/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686317523
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 4594099
+Filename: v2ray-plugin_5.7.0-1_mipsel_24kc.ipk
+Size: 4585465
+SHA256sum: 50081db38bc7a78b8cff03bd029a7ac1a1e331ffbf19dfa99bcaadf7c63c110c
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: xray-core
+Version: 1.5.4-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1647876847
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 5917241
+Filename: xray-core_1.5.4-1_mipsel_24kc.ipk
+Size: 5906911
+SHA256sum: 423a40b1d1979517cccfdc54952a159a1576f430cb5792db031e27093bfda9d9
+Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
