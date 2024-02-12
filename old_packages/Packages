@@ -1,0 +1,114 @@
+Package: curl
+Version: 8.5.0-1
+Depends: libc, libcurl4
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1703406486
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: aarch64_generic
+Installed-Size: 65672
+Filename: curl_8.5.0-1_aarch64_generic.ipk
+Size: 66428
+SHA256sum: 0b0f13f8d327ff7da1d1889c79d3a1d23e788771260698f8f3c86b8964b3a1d1
+Description:  A client-side URL transfer utility
+
+Package: curl
+Version: 8.5.0-1
+Depends: libc, libcurl4
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1703406486
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: mips_24kc
+Installed-Size: 64688
+Filename: curl_8.5.0-1_mips_24kc.ipk
+Size: 65337
+SHA256sum: 84d90184de9aeac1567eecdef2acafec79db9f2cca027054c479a06cc9d7ac90
+Description:  A client-side URL transfer utility
+
+Package: curl
+Version: 8.5.0-1
+Depends: libc, libcurl4
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1703406486
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: mipsel_24kc
+Installed-Size: 63724
+Filename: curl_8.5.0-1_mipsel_24kc.ipk
+Size: 64480
+SHA256sum: 224d53a9a000b39ae024e7145eba753f3bb2718c3d136c7518f90dc937220b92
+Description:  A client-side URL transfer utility
+
+Package: libcurl4
+Version: 8.5.0-1
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1703406486
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: aarch64_generic
+Installed-Size: 202098
+Filename: libcurl4_8.5.0-1_aarch64_generic.ipk
+Size: 202742
+SHA256sum: 340d9f588de5ac898ec56e9369a2d9931117b22a77a89bbb5e59bcde3ac550cb
+Description:  A client-side URL transfer library
+
+Package: libcurl4
+Version: 8.5.0-1
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1703406486
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: mips_24kc
+Installed-Size: 177041
+Filename: libcurl4_8.5.0-1_mips_24kc.ipk
+Size: 177019
+SHA256sum: a9f9415eff885df1a9e48e609f2f800ba52b272df1a160fa5d3e78309613a3c1
+Description:  A client-side URL transfer library
+
+Package: libcurl4
+Version: 8.5.0-1
+Depends: libc, libmbedtls12, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1703406486
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: mipsel_24kc
+Installed-Size: 176147
+Filename: libcurl4_8.5.0-1_mipsel_24kc.ipk
+Size: 176595
+SHA256sum: e0eb027320589b4b60585ca6d4a50b9462aa1c202c82d52513fbb246dd56fa57
+Description:  A client-side URL transfer library
+
