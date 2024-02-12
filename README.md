@@ -1,3 +1,13 @@
+```
+src/gz custom https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/minimal](https://raw.githubusercontent.com/NevermoreSSH/openwrt-packages2/main/22.03_passwall_ssrplus_mips_24kc
+```
+
+```
+src/gz custom_packages https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/minimal](https://raw.githubusercontent.com/NevermoreSSH/openwrt-packages2/main/old_packages
+```
+
+
+
 OpenWRT / ImmortalWRT Lite Version by NevermoreSSH
 
 GL.iNet GL-MT300N V2 (beta)
