@@ -40,7 +40,7 @@ Changelog OpenWrt 22.03.6:-
 - OpenVPN & WireGuard Latest
 - Xray-core v1.5.9 for low-end router and xray-core v1.7.2 for better storage.
 - addons Adblock, auto block 65k domain (can disable at schedule tasks if you want it)
-- watchcat pre-installed
+- Watchcat pre-installed
 - include driver USB Modem & Tethering
 - PNP Preset (WiFi Enable, Passwall global setting, Adblock auto reload every hour , etc)
 - IPV6 Enable
@@ -49,5 +49,14 @@ Changelog OpenWrt 22.03.6:-
 
 Changelog OpenWrt 23.05.2:-
 - OTW . . .
+- Build lite version firmware for 16mb storage
+- Passwall 4.72-2 stable version (SSRplus include for better storage)
+- OpenVPN & WireGuard Latest
+- Xray-core v1.5.9 for low-end router and xray-core v1.7.2 for better storage.
+- addons Adblock, auto block 65k domain (can disable at schedule tasks if you want it)
+- Watchcat pre-installed
+- include driver USB Modem & Tethering
+- PNP Preset (WiFi Enable, Passwall global setting, Adblock auto reload every hour , etc)
+- IPV6 Enable
 
 
