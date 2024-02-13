@@ -42,7 +42,8 @@ Changelog OpenWrt 22.03.6:-
 - addons Adblock, auto block 65k domain (can disable at schedule tasks if you want it)
 - watchcat pre-installed
 - include driver USB Modem & Tethering
-- PNP Preset for Passwall and Malaysian Region
+- PNP Preset (WiFi Enable, Passwall global setting, Adblock auto reload every hour , etc)
+- IPV6 Enable
 
 
 
