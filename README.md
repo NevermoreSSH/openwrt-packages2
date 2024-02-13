@@ -17,9 +17,6 @@ Default username: root
 Default password: (no password)
 Default WIFI name: OpenWrt/ImmortalWrt
 Default WIFI password: (no password)
-
-WiFi Enable
-IPV6 Enable
 ```
 
 
@@ -40,7 +37,7 @@ Changelog OpenWrt 22.03.6:-
 - Passwall 4.68-1 & SSRplus 187-1 for better space
 - OpenVPN & WireGuard Latest
 - Xray-core v1.5.9 for low-end router and xray-core v1.8.3 for better storage.
-- addons Adblock, auto block 65k domain (can disable at schedule tasks if you want it)
+- addons Adblock, auto block 65k domain (can disable at schedule tasks if you dont want it)
 - Watchcat pre-installed
 - include driver USB Modem & Tethering
 - PNP Preset (WiFi Enable, Passwall global setting, Adblock auto reload every hour , etc)
