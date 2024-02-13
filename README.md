@@ -33,6 +33,17 @@ GL.iNet GL-MT300N V2 | ![](https://img.shields.io/badge/Passwall_OpenVPN_WireGua
 
 
 
+```
+Changelog OpenWrt 22.03.6:-
+- Passwall 4.66-8 stable version
+- OpenVPN & WireGuard Latest
+- Xray-core v1.5.9 for low-end router and xray-core v1.7.2 for large storage.
+- addons Adblock, auto block 65k domain (can disable at schedule tasks if you want it)
+- watchcat pre-installed
+- include driver USB Modem & Tethering
+- PNP Preset for Passwall and Malaysian Region
+
+
 
 OpenWrt 23.05.2:-
 - OTW . . .
