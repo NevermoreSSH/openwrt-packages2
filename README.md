@@ -20,7 +20,7 @@ Others:-
 - Adblock, 65k auto block domain (can disable in schedule task)
 - Include Driver USB Modem/Tethering
 
-Download
+Download:-
 - D-Link DIR-842 C2 [![](https://img.shields.io/badge/OpenWrt-22.03.6-blue.svg?logo=openwrt)](https://github.com/NevermoreSSH/openwrt-packages2/releases/download/22.03.6/openwrt-22.03.6-ath79-generic-dlink_dir-842-c2-squashfs-sysupgrade.bin)
 - GL.iNet GL-AR300M16 [![](https://img.shields.io/badge/OpenWrt-22.03.6-blue.svg?logo=openwrt)](https://github.com/NevermoreSSH/openwrt-packages2/releases/download/22.03.6/openwrt-22.03.6-ath79-generic-glinet_gl-ar300m16-squashfs-sysupgrade.bin)
 
