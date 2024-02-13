@@ -32,3 +32,9 @@ GL.iNet GL-AR300M16 | ![](https://img.shields.io/badge/Passwall_OpenVPN_WireGuar
 GL.iNet GL-MT300N V2 | ![](https://img.shields.io/badge/Passwall_OpenVPN_WireGuard-Xraycore_v1.5.9-purple.svg) | ![](https://img.shields.io/badge/Adblock_Watchcat_Driver_USB-brown.svg?logo=hack-the-box) | [![](https://img.shields.io/badge/OpenWrt-22.03.6-blue.svg?logo=openwrt)](https://github.com/NevermoreSSH/openwrt-packages2/releases/download/22.03.6/openwrt-22.03.6-ramips-mt76x8-glinet_gl-mt300n-v2-squashfs-sysupgrade.bin)
 
 
+
+
+OpenWrt 23.05.2:-
+- OTW . . .
+
+
