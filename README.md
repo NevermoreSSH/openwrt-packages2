@@ -7,8 +7,21 @@ src/gz custom_packages https://raw.githubusercontent.com/NevermoreSSH/openwrt-pa
 ```
 
 
-
+<h2 align="center">
 OpenWRT / ImmortalWRT Lite Version by NevermoreSSH
+</h2>
+
+```
+Default IP: 192.168.1.1
+Default username: root
+Default password: (no password)
+Default WIFI name: OpenWrt/ImmortalWrt
+Default WIFI password: (no password)
+
+WiFi Enable
+IPV6 Enable
+```
+
 
 Low-End Router Version :-
 
