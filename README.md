@@ -43,6 +43,7 @@ Changelog OpenWrt 22.03.6:-
 - Watchcat pre-installed
 - include driver USB Modem & Tethering
 - PNP Preset (WiFi Enable, Passwall global setting, Adblock auto reload every hour , etc)
+- Fixed Passwall autoreconnect after reboot / turn on
 - IPV6 Enable
 
 
@@ -57,6 +58,7 @@ Changelog OpenWrt 23.05.2:-
 - Watchcat pre-installed
 - include driver USB Modem & Tethering
 - PNP Preset (WiFi Enable, Passwall global setting, Adblock auto reload every hour , etc)
+- Fixed Passwall autoreconnect after reboot / turn on
 - IPV6 Enable
 
 
