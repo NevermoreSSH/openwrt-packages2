@@ -36,9 +36,10 @@ GL.iNet GL-MT300N V2 | ![](https://img.shields.io/badge/Passwall_OpenVPN_WireGua
 ```
 Changelog OpenWrt 22.03.6:-
 - Build lite version firmware for 16mb storage
-- Passwall 4.66-8 stable version (SSRplus include for better storage)
+- Passwall 4.66-8 stable version for low storage
+- Passwall 4.68-1 & SSRplus 187-1 for better space
 - OpenVPN & WireGuard Latest
-- Xray-core v1.5.9 for low-end router and xray-core v1.7.2 for better storage.
+- Xray-core v1.5.9 for low-end router and xray-core v1.8.3 for better storage.
 - addons Adblock, auto block 65k domain (can disable at schedule tasks if you want it)
 - Watchcat pre-installed
 - include driver USB Modem & Tethering
@@ -53,7 +54,7 @@ Changelog OpenWrt 23.05.2:-
 - Build lite version firmware for 16mb storage
 - Passwall 4.72-2 stable version (SSRplus include for better storage)
 - OpenVPN & WireGuard Latest
-- Xray-core v1.5.9 for low-end router and xray-core v1.7.2 for better storage.
+- Xray-core v1.5.9 for low-end router and xray-core v1.8.3 for better storage.
 - addons Adblock, auto block 65k domain (can disable at schedule tasks if you want it)
 - Watchcat pre-installed
 - include driver USB Modem & Tethering
