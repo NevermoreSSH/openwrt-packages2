@@ -45,6 +45,7 @@ Changelog OpenWrt 22.03.6:-
 - Xray-core v1.5.9 for low-end router and xray-core v1.8.3 for better storage.
 - addons Adblock, auto block 65k domain (can disable at schedule tasks if you dont want it)
 - Watchcat pre-installed
+- Loadbalance, Mwan3, Zerotier, TTYD, theme pre-installed
 - include driver USB Modem & Tethering
 - PNP Preset (WiFi Enable, Passwall global setting, Adblock auto reload every hour , etc)
 - Fixed Passwall autoreconnect after reboot / turn on
