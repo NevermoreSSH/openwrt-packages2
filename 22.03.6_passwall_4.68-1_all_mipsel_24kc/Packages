@@ -1,0 +1,325 @@
+Package: chinadns-ng
+Version: 2023.06.01-1
+Depends: libc, ipset
+Source: feeds/packages/net/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1685679366
+Maintainer: pexcn <i@pexcn.me>
+Architecture: mipsel_24kc
+Installed-Size: 31546
+Filename: chinadns-ng_2023.06.01-1_mipsel_24kc.ipk
+Size: 32282
+SHA256sum: 64b7f8b7126d0f3c41ef0e7f62a3d42178218af791a778a2863de8b15924fdc6
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: feeds/packages/net/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675155577
+Maintainer: ghostmaker
+Architecture: mipsel_24kc
+Installed-Size: 10762
+Filename: dns2socks_2.1-2_mipsel_24kc.ipk
+Size: 11563
+SHA256sum: b04847f6e9185e0d744217628196aa8e508683eb1f26dfb647815e4d0f3c0e23
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: feeds/packages/net/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1652520973
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 12592
+Filename: dns2tcp_1.1.0-1_mipsel_24kc.ipk
+Size: 13373
+SHA256sum: 7aabe30954f55137872a12ae36f249b04af0124f37b37973c3f1248704cbe645
+Description:  utility to convert dns query from udp to tcp
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+Source: feeds/packages/net/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675155577
+Architecture: mipsel_24kc
+Installed-Size: 28316
+Filename: ipt2socks_1.1.3-3_mipsel_24kc.ipk
+Size: 29093
+SHA256sum: 1c0d0408759fcc33e76a4c37facc62d20d8cd58cec1bff1d15b57ba10bfacb7b
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: lua-neturl
+Version: 1.1-1-3
+Depends: libc, lua
+Source: feeds/packages/lang/lua-neturl
+SourceName: lua-neturl
+License: MIT
+Section: lang
+SourceDateEpoch: 1674473072
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 4539
+Filename: lua-neturl_1.1-1-3_all.ipk
+Size: 5341
+SHA256sum: 2758a11086bcda8b443d3f0c9e9fbebdd99126b80c1342650dfc9a3e471befa8
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: luci-app-openclash
+Version: 0.45.141-beta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip, kmod-inet-diag, kmod-ipt-nat, iptables-mod-tproxy, iptables-mod-extra
+Source: feeds/luci/applications/luci-app-openclash
+SourceName: luci-app-openclash
+Section: opt
+SourceDateEpoch: 1692768480
+Maintainer: vernesong
+Architecture: all
+Installed-Size: 4365269
+Filename: luci-app-openclash_0.45.141-beta_all.ipk
+Size: 4349693
+SHA256sum: cb57dcce3fea7ad8c02d146c00147e13da519c74aecb7c08caefa6943949b7b3
+Description:  A LuCI support for clash
+
+Package: luci-app-passwall
+Version: 4.68-1
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dns2tcp, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, unzip, ipset, ipt2socks, kmod-ipt-nat, iptables-mod-conntrack-extra, iptables-mod-iprange, iptables-mod-tproxy, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, trojan-plus
+Source: feeds/luci/applications/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1692747842
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 972382
+Filename: luci-app-passwall_4.68-1_all.ipk
+Size: 972661
+SHA256sum: d1af25f3e7e6f1718f82b2277e2b36e4c97926611ed222ca8b02066123086b08
+Description:  LuCI support for PassWall
+
+Package: luci-app-ssr-plus
+Version: 187
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, ip-full, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, luci-lib-ipkg, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, chinadns-ng, ipt2socks, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, simple-obfs, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, trojan
+Source: feeds/luci/applications/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1694227850
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 272464
+Filename: luci-app-ssr-plus_187_all.ipk
+Size: 272754
+SHA256sum: db8084691a4f4b2a15daf5aab804615b7a1ab8b408064037d427cb0560e4b1ff
+Description:  SS/SSR/V2Ray/XRay/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-zerotier
+Version: git-23.003.24878-51a6333
+Depends: libc, zerotier
+Source: feeds/luci/applications/luci-app-zerotier
+SourceName: luci-app-zerotier
+Section: luci
+SourceDateEpoch: 1672728878
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3761
+Filename: luci-app-zerotier_git-23.003.24878-51a6333_all.ipk
+Size: 4615
+SHA256sum: b6055ba73176928453a31921ba39ba9ea62e554259234bb5033ffa7a0caf2c5d
+Description:  LuCI for Zerotier
+
+Package: luci-theme-alpha
+Version: 3.9.2-beta-9
+Depends: libc
+Source: feeds/kiddin9/luci-theme-alpha
+SourceName: luci-theme-alpha
+Section: luci
+SourceDateEpoch: 1707492960
+Architecture: all
+Installed-Size: 2762157
+Filename: luci-theme-alpha_3.9.2-beta-9_all.ipk
+Size: 2763142
+SHA256sum: 8ee4623e784d12bed7c111b024f2da02a908e0d2712b1570d5b8096eba2f5eff
+Description:  LuCi Theme For OpenWrt And Alpha OS ONLY - Alpha
+
+Package: luci-theme-argon
+Version: 2.3.1
+Depends: libc, wget, jsonfilter
+Source: feeds/luci/themes/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1686043039
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 388629
+Filename: luci-theme-argon_2.3.1_all.ipk
+Size: 389283
+SHA256sum: bec0ea20925f4fe689f449769d9f169af3c9f38a6e7798206ccae721f3d0100d
+Description:  Argon Theme
+
+Package: microsocks
+Version: 1.0.3-3
+Depends: libc, libpthread
+Source: feeds/packages/net/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1673002827
+Maintainer: Mateusz Korniak <matkorgithubcom@ant.gliwice.pl>
+Architecture: mipsel_24kc
+Installed-Size: 5423
+Filename: microsocks_1.0.3-3_mipsel_24kc.ipk
+Size: 6261
+SHA256sum: 2da5794baf66b339e302bbc3a8b789fb59422272e3cee91ff43e835140a20e9c
+Description:  Low resource SOCKS5 proxy.
+ Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/packages/net/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1654535508
+Architecture: mipsel_24kc
+Installed-Size: 2411
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_mipsel_24kc.ipk
+Size: 3151
+SHA256sum: 1f8a63f1761e41adf93c32600d12838ae08b56175ff4b530dce6511c728bd22f
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/packages/net/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1654535508
+Architecture: mipsel_24kc
+Installed-Size: 57131
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_mipsel_24kc.ipk
+Size: 57732
+SHA256sum: 1731f5038422ecc59bae17e37442d2bd7695229e6d276b41bd02120f0325b3c1
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/packages/net/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1654535508
+Architecture: mipsel_24kc
+Installed-Size: 50922
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_mipsel_24kc.ipk
+Size: 51617
+SHA256sum: edbd25ffc98d140b7e3645c2db5cc00d026b49cb249a80585a7ed0919094af1a
+Description:  shadowsocksr-libev ssr-redir
+
+Package: simple-obfs-client
+Version: 0.0.5-2
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Source: feeds/packages/net/simple-obfs
+SourceName: simple-obfs-client
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1618917396
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: mipsel_24kc
+Installed-Size: 24349
+Filename: simple-obfs-client_0.0.5-2_mipsel_24kc.ipk
+Size: 25116
+SHA256sum: c62c9752c1d1cf84ae76fa7382bf7a6804c4766fe4485b82b84931175bff5617
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs-server
+Version: 0.0.5-2
+Depends: libc, libpthread, libev
+Source: feeds/packages/net/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1618917396
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: mipsel_24kc
+Installed-Size: 26143
+Filename: simple-obfs-server_0.0.5-2_mipsel_24kc.ipk
+Size: 26924
+SHA256sum: 7e33deb92c6e1987e3cdb4af46dea426e68f21295dad617f170b5a479872a52e
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: tcping
+Version: 0.3-2
+Depends: libc
+Source: feeds/packages/net/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1675155577
+Architecture: mipsel_24kc
+Installed-Size: 3411
+Filename: tcping_0.3-2_mipsel_24kc.ipk
+Size: 4135
+SHA256sum: 09a501f0ea3bb85787a0a88a40a6ab61058404690af5cd9768f7265e8fc75133
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: feeds/packages/net/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675155577
+Maintainer: Trojan-Plus-Group
+Architecture: mipsel_24kc
+Installed-Size: 356033
+Filename: trojan-plus_10.0.3-2_mipsel_24kc.ipk
+Size: 356801
+SHA256sum: 338246262c8aeb74e43eabbab65a461e0608fb528ee33a25b278c02926b38988
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+Source: feeds/packages/net/trojan
+SourceName: trojan
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675155577
+Maintainer: GreaterFire
+Architecture: mipsel_24kc
+Installed-Size: 261992
+Filename: trojan_1.16.0-2_mipsel_24kc.ipk
+Size: 262383
+SHA256sum: 56324d4045f9e979d57496225bc3eb1e7f84bca0db0fbe26b15b15484203f577
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
