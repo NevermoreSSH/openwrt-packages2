@@ -1,11 +1,3 @@
-```
-src/gz custom https://raw.githubusercontent.com/NevermoreSSH/openwrt-packages2/main/22.03.6_passwall_4.66-8_mips_24kc
-```
-
-```
-src/gz custom_packages https://raw.githubusercontent.com/NevermoreSSH/openwrt-packages2/main/old_packages
-```
-
 
 <h2 align="center">
 OpenWRT / ImmortalWRT Lite Version by NevermoreSSH
@@ -17,6 +9,8 @@ Default username: root
 Default password: (no password)
 Default WIFI name: OpenWrt/ImmortalWrt
 Default WIFI password: (no password)
+
+DO YOUR OWN RISK. DONT FLASH IF YOU GOT WARNING DIFFERENT MODEL ROUTER!!!
 ```
 
 
@@ -68,5 +62,18 @@ Changelog OpenWrt 23.05.2:-
 - PNP Preset (WiFi Enable, Passwall global setting, Adblock auto reload every hour , etc)
 - Fixed Passwall autoreconnect after reboot / turn on
 - IPV6 Enable
+
+```
+
+
+
+Custom architecture
+```
+src/gz custom https://raw.githubusercontent.com/NevermoreSSH/openwrt-packages2/main/your_architecture
+```
+Custom old packages
+```
+src/gz custom_packages https://raw.githubusercontent.com/NevermoreSSH/openwrt-packages2/main/old_packages
+```
 
 
