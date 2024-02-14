@@ -2,8 +2,9 @@
 <img src="https://github.com/NevermoreSSH/openwrt-packages2/blob/main/openwrt2024.png" width="550" title="Autoscript-Lite">
   
 <h2 align="center">
-OpenWRT / ImmortalWRT Lite Version by NevermoreSSH
+OpenWRT / ImmortalWRT Lite Version by NevermoreSSH (Newbie)
 </h2>
+Request for other router? PM : <a href="https://t.me/todfix667" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
 
 ```
 Default IP: 192.168.1.1
