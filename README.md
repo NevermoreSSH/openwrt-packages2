@@ -20,7 +20,7 @@ Default WIFI password: (no password)
 ```
 
 
-Low-End Router Version :-
+Low-End Router Version (16MB) :-
 
 | Model | Packages Include | Others | Download |
 | :-------------: | :-------------: | :-------------: | :-------------: |
