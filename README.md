@@ -1,4 +1,6 @@
-
+<p align="center">
+<img src="https://github.com/NevermoreSSH/openwrt-packages2/blob/main/openwrt2024.png" width="550" title="Autoscript-Lite">
+  
 <h2 align="center">
 OpenWRT / ImmortalWRT Lite Version by NevermoreSSH
 </h2>
