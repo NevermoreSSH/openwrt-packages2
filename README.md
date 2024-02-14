@@ -36,7 +36,7 @@ Xiaomi Mi Router 4A Gigabit Edition | ![](https://img.shields.io/badge/Passwall_
 Changelog OpenWrt 22.03.6:-
 - Build lite version firmware for 16mb storage
 - Passwall 4.66-8 stable version for low storage
-- Passwall 4.68-1 & SSRplus 187-1 for better space
+- Passwall 4.68-1 & others for better storage
 - OpenVPN & WireGuard Latest
 - Xray-core v1.5.9 for low-end router and xray-core v1.8.3 for better storage.
 - addons Adblock, auto block 65k domain (can disable at schedule tasks if you dont want it)
@@ -44,6 +44,7 @@ Changelog OpenWrt 22.03.6:-
 - include driver USB Modem & Tethering
 - PNP Preset (WiFi Enable, Passwall global setting, Adblock auto reload every hour , etc)
 - Fixed Passwall autoreconnect after reboot / turn on
+- Fixed Passwall 0ms touch respon
 - IPV6 Enable
 
 
