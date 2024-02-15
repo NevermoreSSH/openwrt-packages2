@@ -56,8 +56,6 @@ Changelog OpenWrt 22.03.6 / ImmortalWRT 21.02.7 :-
 - Fixed Passwall 0ms touch respon
 - IPV6 Enable
 
-
-
 Changelog OpenWrt 23.05.2:-
 - Build lite version firmware for 16mb storage only
 - Passwall 4.72-2 custom version for low storage
@@ -72,8 +70,6 @@ Changelog OpenWrt 23.05.2:-
 - IPV6 Enable
 - For better storage, need to wait cuz openwrt 23.05 still not stable yet. error when compile. soon ... TQ
 ```
-
-
 
 Custom architecture
 ```
