@@ -1,0 +1,122 @@
+Package: luci-app-argon-config
+Version: git-23.242.21733-07a6cfd
+Depends: libc, luci-theme-argon
+Source: feeds/luci/applications/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1693375333
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3159
+Filename: luci-app-argon-config_git-23.242.21733-07a6cfd_all.ipk
+Size: 4025
+SHA256sum: 8a3f26ccf9eb1930efca42945c32900b460d8764de0a518550b4162363bcc6cb
+Description:  LuCI app for Argon theme configuration
+
+Package: luci-theme-alpha
+Version: 3.9.2-beta-9
+Depends: libc
+Source: feeds/kiddin9/luci-theme-alpha
+SourceName: luci-theme-alpha
+Section: luci
+SourceDateEpoch: 1707492960
+Architecture: all
+Installed-Size: 2762157
+Filename: luci-theme-alpha_3.9.2-beta-9_all.ipk
+Size: 2763142
+SHA256sum: 8ee4623e784d12bed7c111b024f2da02a908e0d2712b1570d5b8096eba2f5eff
+Description:  LuCi Theme For OpenWrt And Alpha OS ONLY - Alpha
+
+Package: luci-theme-argon
+Version: 2.3.1
+Depends: libc, wget, jsonfilter
+Source: feeds/luci/themes/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1686043039
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 388604
+Filename: luci-theme-argon_2.3.1_all.ipk
+Size: 389237
+SHA256sum: 046fcc138ec042b7a7ee7a157ec006a8a7731f908a9a50a72975e3bf74f74ced
+Description:  Argon Theme
+
+Package: luci-theme-design
+Version: git-24.343.44748-87a8353
+Depends: libc, luci-lua-runtime
+Source: feeds/kiddin9/luci-theme-design
+SourceName: luci-theme-design
+Section: luci
+SourceDateEpoch: 1702124748
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 303027
+Filename: luci-theme-design_git-24.343.44748-87a8353_all.ipk
+Size: 303977
+SHA256sum: ddca30f151c8714f797c2fd0a90bd0d4560df1da626b52d1903f96e8fd1d3d68
+Description:  Design Theme
+
+Package: luci-theme-edge
+Version: git-24.217.56735-8015371
+Depends: libc, curl, luci-lua-runtime
+Source: feeds/kiddin9/luci-theme-edge
+SourceName: luci-theme-edge
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1691250335
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 261110
+Filename: luci-theme-edge_git-24.217.56735-8015371_all.ipk
+Size: 262095
+SHA256sum: c86f7259fbebe10cc2a57b1b0fb92a3c4a7c44c3b01a9f3e56a9b2772bfb18d7
+Description:  Edge Theme
+
+Package: luci-theme-kucat
+Version: git-25.033.56170-95d0213
+Depends: libc, luci-lua-runtime
+Source: feeds/kiddin9/luci-theme-kucat
+SourceName: luci-theme-kucat
+Section: luci
+SourceDateEpoch: 1706974570
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 660427
+Filename: luci-theme-kucat_git-25.033.56170-95d0213_all.ipk
+Size: 661189
+SHA256sum: 60f5ce663b903d58943beab61bbec0724cae3d4ab85feec65d6d4033f59d22f9
+Description:  Kucat Theme
+
+Package: luci-theme-lightblue
+Version: git-24.217.56735-8015371
+Depends: libc, luci-lua-runtime
+Source: feeds/kiddin9/luci-theme-lightblue
+SourceName: luci-theme-lightblue
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1691250335
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 77836
+Filename: luci-theme-lightblue_git-24.217.56735-8015371_all.ipk
+Size: 78812
+SHA256sum: 0c74620080a7a250b0a4ea2089cf809cb94f8fd95e07f1d862d053bbb736f936
+Description:  Bootstrap lightblue Theme
+
+Package: luci-theme-teleofis
+Version: git-24.217.56735-8015371
+Depends: libc, luci-lua-runtime
+Source: feeds/kiddin9/luci-theme-teleofis
+SourceName: luci-theme-teleofis
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1691250335
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 23409
+Filename: luci-theme-teleofis_git-24.217.56735-8015371_all.ipk
+Size: 24297
+SHA256sum: 8493eb2a6c9b135d2178a3decdf67363dcb1a152fa3f7b67b72fd9883259ad9a
+Description:  Bootstrap Teleofis Theme
+
