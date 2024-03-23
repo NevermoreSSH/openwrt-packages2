@@ -17,7 +17,7 @@ DO YOUR OWN RISK. DONT FLASH IF YOU GOT WARNING DIFFERENT MODEL ROUTER!!!
 ```
 
 
-Model:
+Download : [OpenWrt 22.03.6](https://github.com/NevermoreSSH/openwrt-packages2/releases/tag/openwrt_22.03.6-2) , [ImmortalWrt 21.02.7](https://github.com/NevermoreSSH/openwrt-packages2/releases/tag/immortalwrt_21.02.7-2)
 ```
 Dlink: DIR-842 C2 , DIR-882 R1
 FriendlyARM: NanoPi R2C, NanoPi R2S, NanoPi R4S
