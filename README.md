@@ -17,15 +17,14 @@ DO YOUR OWN RISK. DONT FLASH IF YOU GOT WARNING DIFFERENT MODEL ROUTER!!!
 ```
 
 Model:
-Dlink: ``` DIR-842 C2 , DIR-882 R1 ```
-FriendlyARM: ``` NanoPi R2C, NanoPi R2S, NanoPi R4S ```
-D-Team: ```Newifi D2```
-GL.iNet: ```GL-AR300M16, GL-MT300N V2, GL-MT1300```
-Linksys: ```EA7500 v1, EA8100 v1, EA8100 v2```
-TOTOLINK: ```X5000R```
-Xiaomi: ```Mi Router 4A Gigabit Edition, Mi Router 4A Gigabit Edition v2, Mi Router 3G, Mi Router 3G v2, Mi Router AC2100, Mi Router CR6608, Redmi Router AC2100```
-Xunlong: ```Orange Pi R1 Plus LTS```
-
+```Dlink: DIR-842 C2 , DIR-882 R1
+FriendlyARM: NanoPi R2C, NanoPi R2S, NanoPi R4S
+D-Team: Newifi D2
+GL.iNet: GL-AR300M16, GL-MT300N V2, GL-MT1300
+Linksys: EA7500 v1, EA8100 v1, EA8100 v2
+TOTOLINK: X5000R
+Xiaomi: Mi Router 4A Gigabit Edition, Mi Router 4A Gigabit Edition v2, Mi Router 3G, Mi Router 3G v2, Mi Router AC2100, Mi Router CR6608, Redmi Router AC2100
+Xunlong: Orange Pi R1 Plus LTS ```
 
 ```
 Changelog OpenWrt 22.03.6 / ImmortalWRT 21.02.7 :-
