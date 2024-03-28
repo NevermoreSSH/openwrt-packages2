@@ -33,6 +33,7 @@ echo e > "/proc/irq/$(grep usb3 /proc/interrupts | awk -F: '{print $1}' | sed 's
 
 cat output.txt
 EOF
+sh /etc/irq1.sh
 sleep 1
 
 #-----------------------------------------------------------------------------
