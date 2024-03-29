@@ -7,13 +7,14 @@
 #=================================================
 
 # first boot
-
+echo "First setup..."
+echo "Add custom package from QWRT..."
 # add packages for vpn
 echo | tee -a /etc/opkg/customfeeds.conf
 echo "src/gz custom_packages https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2" | tee -a /etc/opkg/customfeeds.conf
 
 #-----------------------------------------------------------------------------
-
+echo "Set Irqbalance (Beta)..."
 # irqbalance core
 cat << 'EOF' > /etc/irq1.sh
 #/bin/sh
@@ -39,10 +40,14 @@ sleep 1
 #-----------------------------------------------------------------------------
 
 # install passwall , haproxy , xray-core , vnstat
+echo "Updating package list..."
+echo "Install Passwall no-filter by solomonricky..."
+echo "Install haproxy xraycore vnstat..."
 cd /tmp
 opkg update;opkg --force-overwrite install luci-app-passwall haproxy xray-core luci-app-vnstat
 
 # cpu set max performance
+echo "Set Performance CPU..."
 #uci set cpufreq.cpufreq.governor0='performance'
 uci set cpufreq.cpufreq.governor=performance
 uci set cpufreq.cpufreq.minifreq=2208000
@@ -62,7 +67,7 @@ echo "luciversion    = \"EN\"" >> /usr/lib/lua/luci/version.lua
 rm -r /etc/rc.local
 sleep 1
 
-cat <<'EOF' >>/etc/opkg/distfeeds.conf
+cat <<'EOF' >>/etc/rc.local
 # Put your custom commands here that should be executed once
 # the system init finished. By default this file does nothing.
 
@@ -79,6 +84,7 @@ sleep 1
 
 #-----------------------------------------------------------------------------
 
+echo "Update module router english version..."
 # replace file with english language
 wget -q -O /usr/lib/lua/luci/model/cbi/customize.lua "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/customize.lua"
 wget -q -O /usr/lib/lua/luci/view/rooter/debug.htm "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/debug.htm"
@@ -91,6 +97,7 @@ wget -q -O /usr/lib/lua/luci/model/cbi/rooter/profiles.lua "https://github.com/N
 wget -q -O /usr/lib/lua/luci/view/rooter/sms.htm "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/sms.htm"
 wget -q -O /usr/lib/lua/luci/controller/sms.lua "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/sms.lua"
 
-sleep 1
+echo "Done..."
+sleep 3
 #-----------------------------------------------------------------------------
 reboot
