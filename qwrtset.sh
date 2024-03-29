@@ -38,13 +38,9 @@ sleep 1
 
 #-----------------------------------------------------------------------------
 
-# install passwall , adblock , openvpn
+# install passwall , haproxy , xray-core , vnstat
 cd /tmp
-opkg update;opkg --force-overwrite install luci-app-passwall haproxy xray-core luci-app-watchcat luci-app-vnstat
-
-# fix vnstat 
-mkdir -p /etc/vnstat/
-sed -i 's|DatabaseDir "/var/lib/vnstat"|DatabaseDir "/etc/vnstat"|g' /etc/vnstat.conf
+opkg update;opkg --force-overwrite install luci-app-passwall haproxy xray-core luci-app-vnstat
 
 # cpu set max performance
 #uci set cpufreq.cpufreq.governor0='performance'
@@ -52,43 +48,48 @@ uci set cpufreq.cpufreq.governor=performance
 uci set cpufreq.cpufreq.minifreq=2208000
 uci commit cpufreq
 
-# enable tcp bbr cca
-#uci set turboacc.config
-#uci set turboacc.config.bbr_cca=1
-#uci commit turboacc
-
-# Remove watchcat default config
-uci delete watchcat.@watchcat[0]
-uci commit watchcat
+# fix vnstat 
+mkdir -p /etc/vnstat/
+sed -i 's|DatabaseDir "/var/lib/vnstat"|DatabaseDir "/etc/vnstat"|g' /etc/vnstat.conf
 
 # sucess english preset
 sed -i '/luciname/d' /usr/lib/lua/luci/version.lua
 sed -i '/luciversion/d' /usr/lib/lua/luci/version.lua
-echo "luciname    = \"Preset English\"" >> /usr/lib/lua/luci/version.lua
-echo "luciversion    = \"V2\"" >> /usr/lib/lua/luci/version.lua
+echo "luciname    = \"ClashWall Preset\"" >> /usr/lib/lua/luci/version.lua
+echo "luciversion    = \"EN\"" >> /usr/lib/lua/luci/version.lua
+
+# Fixed Passwall timeout when reboot/turn on
+rm -r /etc/rc.local
+sleep 1
+
+cat <<'EOF' >>/etc/opkg/distfeeds.conf
+# Put your custom commands here that should be executed once
+# the system init finished. By default this file does nothing.
+
+# Restart passwall after power on
+/etc/init.d/passwall restart
+# Running script irqbalance
+/etc/config/irq1
+sh /etc/config/irq1
+
+exit 0
+
+EOF
+sleep 1
 
 #-----------------------------------------------------------------------------
 
-# english rooter
-mv /usr/lib/lua/luci/model/cbi/rooter/customize.lua /usr/lib/lua/luci/model/cbi/rooter/customize.lua.bak && curl -L https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/customize.lua && mv customize.lua /usr/lib/lua/luci/model/cbi/rooter && chmod +x /usr/lib/lua/luci/model/cbi/rooter/customize.lua && rm *.lua
-
-mv /usr/lib/lua/luci/view/rooter/debug.htm /usr/lib/lua/luci/view/rooter/debug.htm.bak && curl -L https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/debug.htm && mv debug.htm /usr/lib/lua/luci/view/rooter && chmod +x /usr/lib/lua/luci/view/rooter/debug.htm && rm *.htm
-
-mv /usr/lib/lua/luci/view/rooter/misc.htm /usr/lib/lua/luci/view/rooter/misc.htm.bak && curl -L https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/misc.htm && mv misc.htm /usr/lib/lua/luci/model/cbi/rooter && chmod +x /usr/lib/lua/luci/model/cbi/rooter/customize.lua && rm *.lua
-
-mv /usr/lib/lua/luci/controller/admin/modem.lua /usr/lib/lua/luci/controller/admin/modem.lua.bak && curl -L https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/modem.lua && mv modem.lua /usr/lib/lua/luci/controller/admin && chmod +x /usr/lib/lua/luci/controller/admin/modem.lua && rm *.lua
-
-mv /usr/lib/lua/luci/view/modlog/modlog.htm /usr/lib/lua/luci/view/modlog/modlog.htm.bak && curl -L https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/modlog.lua && mv modlog.lua /usr/lib/lua/luci/view/modlog && chmod +x /usr/lib/lua/luci/view/modlog/modlog.htm && rm *.htm
-
-mv /usr/lib/lua/luci/controller/modlog.lua /usr/lib/lua/luci/controller/modlog.lua.bak && curl -L https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/modlog.lua && mv modlog.lua /usr/lib/lua/luci/controller && chmod +x /usr/lib/lua/luci/controller/modlog.lua && rm *.lua
-
-mv /usr/lib/lua/luci/view/rooter/net_status.htm /usr/lib/lua/luci/view/rooter/net_status.htm.bak && curl -L https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/net_status.htm && mv net_status.htm /usr/lib/lua/luci/view/rooter && chmod +x /usr/lib/lua/luci/view/rooter/net_status.htm && rm *.htm
-
-mv /usr/lib/lua/luci/model/cbi/rooter/profiles.lua /usr/lib/lua/luci/model/cbi/rooter/profiles.lua.bak && curl -L https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/profiles.lua && mv profiles.lua /usr/lib/lua/luci/model/cbi/rooter && chmod +x /usr/lib/lua/luci/model/cbi/rooter/profiles.lua && rm *.lua
-
-mv /usr/lib/lua/luci/view/rooter/sms.htm /usr/lib/lua/luci/view/rooter/sms.htm.bak && curl -L https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/sms.htm && mv sms.htm /usr/lib/lua/luci/view/rooter && chmod +x /usr/lib/lua/luci/view/rooter/sms.htm && rm *.sms.htm
-
-mv /usr/lib/lua/luci/controller/sms.lua /usr/lib/lua/luci/controller/sms.lua.bak && curl -L https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/sms.lua && mv sms.lua /usr/lib/lua/luci/controller && chmod +x /usr/lib/lua/luci/controller/sms.lua && rm *.sms.lua
+# replace file with english language
+wget -q -O /usr/lib/lua/luci/model/cbi/customize.lua "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/customize.lua"
+wget -q -O /usr/lib/lua/luci/view/rooter/debug.htm "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/debug.htm"
+wget -q -O /usr/lib/lua/luci/view/rooter/misc.htm "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/misc.htm"
+wget -q -O /usr/lib/lua/luci/controller/admin/modem.lua "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/modem.lua"
+wget -q -O /usr/lib/lua/luci/view/modlog/modlog.htm "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/modlog.htm"
+wget -q -O /usr/lib/lua/luci/controller/modlog.lua "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/modlog.lua"
+wget -q -O /usr/lib/lua/luci/view/rooter/net_status.htm "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/net_status.htm"
+wget -q -O /usr/lib/lua/luci/model/cbi/rooter/profiles.lua "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/profiles.lua"
+wget -q -O /usr/lib/lua/luci/view/rooter/sms.htm "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/sms.htm"
+wget -q -O /usr/lib/lua/luci/controller/sms.lua "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/sms.lua"
 
 sleep 1
 #-----------------------------------------------------------------------------
