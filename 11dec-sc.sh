@@ -16,7 +16,10 @@ opkg update;opkg install luci-app-adblock luci-app-ttyd openvpn-openssl luci-app
 uci delete watchcat.@watchcat[0];
 uci commit watchcat;
 #uci set sms_tool.general.storage='ME';
-#uci commit sms_tool;
+sed -i '/Openwrt/d' /etc/config/phonebook.user;
+echo 'Example Number Openwrt user;60123456789' | tee -a /etc/config/phonebook.user;
+uci set sms_tool.general.pnumber='6';
+uci commit sms_tool;
 uci set 3ginfo.@3ginfo[0].network='wan';
 uci set 3ginfo.@3ginfo[0].device='/dev/ttyUSB1';
 uci commit 3ginfo;uci set network.OpenVPN=interface;
