@@ -16,7 +16,7 @@ opkg update;opkg install luci-app-3ginfo-lite;
 uci delete watchcat.@watchcat[0];
 uci commit watchcat;
 #uci set sms_tool.general.storage='ME';
-sed -i '/luciname/d' /usr/lib/lua/luci/version.lua;
+sed -i '/Openwrt/d' /etc/config/phonebook.user;
 echo 'Openwrt user;60123456789' | tee -a /etc/config/phonebook.user;
 uci set sms_tool.general.pnumber='6';
 uci commit sms_tool;
