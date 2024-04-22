@@ -17,7 +17,7 @@ uci delete watchcat.@watchcat[0];
 uci commit watchcat;
 #uci set sms_tool.general.storage='ME';
 sed -i '/Openwrt/d' /etc/config/phonebook.user;
-echo 'Openwrt user;60123456789' | tee -a /etc/config/phonebook.user;
+echo 'Example Number Openwrt user;60123456789' | tee -a /etc/config/phonebook.user;
 uci set sms_tool.general.pnumber='6';
 uci commit sms_tool;
 uci set 3ginfo.@3ginfo[0].network='wan';
