@@ -31,23 +31,17 @@ Xunlong: Orange Pi R1 Plus LTS
 Download : [SNAPSHOT Version](https://github.com/NevermoreSSH/openwrt-packages2/releases/tag/snapshot)
 ```
 Arcadyan : AW1000 (ImmortalWrt)
+Changelog :-
+- Lite version
+- ModemManager / QMI Cellular / 4G/5G connection / Lock 4G/5G Bands / AT Commands / SMS Messages
+- Passwall 4.66-8 DNS no-filter / ShadowSocksR Plus+ / OpenClash / OpenVPN / WireGuard
+- Xray-core v1.7.2-1 multipath
+- Adblock / Watchcat / VnStat / TTYD / ZeroTier / Theme pre-installed
+- Include driver USB Modem & Tethering
+- PNP Preset (WiFi on, IPV6 Enable, BBR CCA enable, Passwall global setting, Adblock auto reload every hour , etc)
+- TTL64 ipv4v6 or TTL64 global
 ```
 
-```
-Changelog OpenWrt 22.03.6 / ImmortalWRT 21.02.7 :-
-- Build lite version firmware for 16mb storage
-- Passwall 4.66-8 DNS no-filter
-- OpenVPN & WireGuard Latest
-- Xray-core v1.5.4 / v1.5.9 for low-end router and xray-core v1.8.3 for better storage.
-- addons Adblock, auto block 65k domain (can disable at schedule tasks)
-- Watchcat pre-installed
-- Loadbalance, Mwan3, Zerotier, TTYD, 7-theme pre-installed
-- include driver USB Modem & Tethering
-- PNP Preset (WiFi Enable, Passwall global setting, Adblock auto reload every hour , etc)
-- Fixed Passwall autoreconnect after reboot / turn on
-- Fixed Passwall 0ms touch respon
-- IPV6 Enable
-```
 
 Custom architecture
 ```
