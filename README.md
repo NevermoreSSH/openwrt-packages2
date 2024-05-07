@@ -33,7 +33,7 @@ Download : [SNAPSHOT Version](https://github.com/NevermoreSSH/openwrt-packages2/
 Arcadyan AW1000 (ImmortalWrt)
 Changelog :-
 - Lite version
-- ModemManager / QMI Cellular / 4G/5G connection / Lock 4G/5G Bands / AT Commands / SMS Messages
+- ModemManager / QMI MBIM Cellular / 4G 5G connection / Lock 4G 5G Bands / AT Commands / SMS Messages
 - Passwall 4.66-8 DNS no-filter / ShadowSocksR Plus+ / OpenClash / OpenVPN / WireGuard
 - Xray-core v1.7.2-1 multipath
 - Adblock / Watchcat / VnStat / TTYD / ZeroTier / Theme pre-installed
