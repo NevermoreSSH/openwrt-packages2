@@ -28,6 +28,10 @@ TOTOLINK: X5000R
 Xiaomi: Mi Router 4A Gigabit Edition, Mi Router 4A Gigabit Edition v2, Mi Router 3G, Mi Router 3G v2, Mi Router AC2100, Mi Router CR6608, Redmi Router AC2100
 Xunlong: Orange Pi R1 Plus LTS
 ```
+Download : [SNAPSHOT Version](https://github.com/NevermoreSSH/openwrt-packages2/releases/tag/snapshot)
+```
+Arcadyan : AW1000 (ImmortalWrt)
+```
 
 ```
 Changelog OpenWrt 22.03.6 / ImmortalWRT 21.02.7 :-
