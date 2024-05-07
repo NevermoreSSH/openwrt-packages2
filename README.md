@@ -30,7 +30,7 @@ Xunlong: Orange Pi R1 Plus LTS
 ```
 Download : [SNAPSHOT Version](https://github.com/NevermoreSSH/openwrt-packages2/releases/tag/snapshot)
 ```
-Arcadyan : AW1000 (ImmortalWrt)
+Arcadyan AW1000 (ImmortalWrt)
 Changelog :-
 - Lite version
 - ModemManager / QMI Cellular / 4G/5G connection / Lock 4G/5G Bands / AT Commands / SMS Messages
