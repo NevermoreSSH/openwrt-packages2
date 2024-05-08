@@ -19,7 +19,8 @@ fi
 
 EOF
 sleep 1;
-echo -e "Success . . .";
+clear;
+echo -e "Success optimize settings . . .";
 read -p "$( echo -e "Press Enter Back to menu . . .")";
 clear;
 cat /etc/banner
