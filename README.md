@@ -36,9 +36,10 @@ Changelog :-
 - ModemManager / QMI MBIM Cellular / 4G 5G connection / Lock 4G 5G Bands / AT Commands / SMS Messages
 - Passwall 4.66-8 DNS no-filter / ShadowSocksR Plus+ / OpenClash / OpenVPN / WireGuard
 - Xray-core v1.7.2-1 multipath
+- Metacore Latest
 - Adblock / Watchcat / VnStat / TTYD / ZeroTier / Theme pre-installed
 - Include driver USB Modem & Tethering
-- PNP Preset (WiFi on, IPV6 Enable, BBR CCA enable, Passwall global setting, Adblock auto reload every hour , etc)
+- PNP Preset (WiFi on, IPV6 Enable, Passwall global setting, Adblock auto reload every hour , etc)
 - TTL64 ipv4v6 or TTL64 global
 ```
 
