@@ -1,0 +1,69 @@
+Package: badvpn
+Version: 1.999.130-1
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl3, coreutils, coreutils-stdbuf, openssl-util
+Source: feeds/helmi/badvpn
+SourceName: badvpn
+Section: net
+SourceDateEpoch: 1686562428
+Maintainer: helmiau
+Architecture: aarch64_cortex-a53
+Installed-Size: 134912
+Filename: badvpn_1.999.130-1_aarch64_cortex-a53.ipk
+Size: 135553
+SHA256sum: 9e1c50f0cdcbae93a33bcfda0202ed20e837536bd7dffc97e84f020dd9ff49fb
+Description:  BadVPN
+
+Package: corkscrew
+Version: 2.0-1
+Depends: libc
+Source: feeds/helmi/corkscrew
+SourceName: corkscrew
+Section: net
+SourceDateEpoch: 1686562428
+Maintainer: Galih Prastowo Aji <galih.prastowo@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 3515
+Filename: corkscrew_2.0-1_aarch64_cortex-a53.ipk
+Size: 4094
+SHA256sum: 5ba3d0413e12547b08e5b358082a8ca2df9a1bca2b84f0fc072f2d70168ee31c
+Description:  Tunneling SSH through HTTP proxies.
+
+Package: libopenssl1.1
+Version: 1.1.1v-1
+Depends: libc, kmod-crypto-user, kmod-cryptodev
+Provides: libopenssl
+Source: package/libs/openssl
+SourceName: libopenssl
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1691215109
+ABIVersion: 1.1
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1510316
+Filename: libopenssl1.1_1.1.1v-1_aarch64_cortex-a53.ipk
+Size: 1501860
+SHA256sum: cbc4f112c609a3028f2139d7851c23024fcc909c63392ddb0702481eeb43ea9b
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: luci-app-libernet
+Version: 2.0
+Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-client, https-dns-proxy, php7, php7-cgi, php7-mod-json, php7-mod-session, python3, httping, stunnel, stubby, getdns
+Source: package/luci-app-libernet
+SourceName: luci-app-libernet
+Section: luci
+SourceDateEpoch: 1639116880
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1545887
+Filename: luci-app-libernet_2.0_all.ipk
+Size: 1543538
+SHA256sum: 01f723c96235308dcb733d1eccb2700989ed17d1a58ae59ecaa256507d04fb9a
+Description:  Libernet-Gui
+
