@@ -34,4 +34,5 @@ wget -q -O /etc/rc.local "https://github.com/NevermoreSSH/openwrt-packages2/rele
 wget -q -O /etc/config/irq1 "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/irq1_4";
 wget -q -O /etc/hotplug.d/iface/99-passwall "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/99-passwall";
 wget -q -O /etc/banner "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/banner";
+wget -q -O /etc/hotplug.d/net/97-smp-tune "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/97-smp-tune";
 reboot
