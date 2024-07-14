@@ -32,7 +32,9 @@ wget -q -O /usr/lib/lua/luci/controller/sms.lua "https://github.com/NevermoreSSH
 wget -q -O /usr/lib/lua/luci/view/rooter/custom.htm "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/custom.htm";
 wget -q -O /etc/rc.local "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/rc.local";
 wget -q -O /etc/config/rirq "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/rirq";
+wget -q -O /etc/hotplug.d/iface/82-irqbalance "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/82-irqbalance";
 wget -q -O /etc/hotplug.d/iface/99-passwall "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/99-passwall";
-wget -q -O /etc/banner "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/banner";
 wget -q -O /etc/hotplug.d/net/97-smp-tune "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/97-smp-tune";
+wget -q -O /etc/banner "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/banner";
+echo "All scripts installed. Thank you!";
 reboot
