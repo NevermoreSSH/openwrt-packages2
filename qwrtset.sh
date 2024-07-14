@@ -31,7 +31,7 @@ wget -q -O /usr/lib/lua/luci/view/rooter/sms.htm "https://github.com/NevermoreSS
 wget -q -O /usr/lib/lua/luci/controller/sms.lua "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/sms.lua";
 wget -q -O /usr/lib/lua/luci/view/rooter/custom.htm "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/custom.htm";
 wget -q -O /etc/rc.local "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/rc.local";
-wget -q -O /etc/config/irq1 "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/irq1_4";
+wget -q -O /etc/config/rirq "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/rirq";
 wget -q -O /etc/hotplug.d/iface/99-passwall "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/99-passwall";
 wget -q -O /etc/banner "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/banner";
 wget -q -O /etc/hotplug.d/net/97-smp-tune "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/97-smp-tune";
