@@ -36,5 +36,6 @@ wget -q -O /etc/hotplug.d/iface/82-irqbalance "https://github.com/NevermoreSSH/o
 wget -q -O /etc/hotplug.d/iface/99-passwall "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/99-passwall";
 wget -q -O /etc/hotplug.d/net/97-smp-tune "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/97-smp-tune";
 wget -q -O /etc/banner "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/banner";
+wget -q -O /usr/bin/speedtest "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/speedtest";chmod +x /usr/bin/speedtest;
 echo "All scripts installed. Thank you!";
 reboot
