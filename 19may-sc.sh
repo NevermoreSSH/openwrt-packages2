@@ -26,6 +26,5 @@ uci commit firewall;
 >/usr/share/passwall/rules/chnlist;
 wget -q -O /usr/lib/lua/luci/view/rooter/net_status.htm "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/net_status.htm";
 wget -q -O /etc/opkg/distfeeds.conf "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/distfeeds.conf";
-wget -q -O /usr/bin/speedtest "https://github.com/NevermoreSSH/openwrt-packages2/releases/download/arca_presetv2/speedtest";chmod +x /usr/bin/speedtest;
 echo "All scripts installed. Thank you!";
 reboot
